@@ -1,0 +1,81 @@
+# Game Concept: Flock Shock
+
+---
+
+## Overview
+**Flock Shock** is a casual, top-down browser/mobile game about managing a herd of fainting goats. Players must guide their vulnerable goats away from danger, using amusing, indirect deterrents to keep the herd safe for as long as possible.
+
+---
+
+## Core Gameplay Mechanics
+
+### Herd Behavior
+- **Movement:** Goats continuously wander around the pasture, mildly unpredictable.
+- **Fainting:** Sudden surprises or nearby predators cause goats to faint instantly, leaving them briefly immobilized and vulnerable.
+- **Recovery:** Goats wake up automatically if unharmed after a short duration.
+
+### Player Interaction (Controls)
+- **Placement:** Players use mouse clicks (browser) or screen taps (mobile) to drop humorous deterrents strategically onto the pasture.
+- **Zooming:** Players can zoom in/out (mouse wheel or pinch gestures) for detailed control or strategic overview of the entire pasture.
+
+---
+
+## Humorous Deterrent Tools
+
+Players manage a limited inventory of funny items to control goat movements:
+
+- **Screaming Rooster:** Loud crowing briefly scares goats into running away but risks temporary fainting.
+- **Cardboard Predator:** Fake wolves or bears initially scare goats into fainting; once awake, goats humorously scatter away.
+- **Farmhand Drone:** A buzzing quadcopter shaped like a farmer gently steers goats without causing fainting.
+- **Bubble Wrap Path:** Causes immediate fainting once stepped on; goats afterward avoid these areas, useful for controlling long-term goat paths.
+
+---
+
+## Hazards and Predators
+
+- **Wolves/Coyotes:** Predators periodically enter, chasing goats.
+- **Sudden Thunderstorm:** Lightning and thunder randomly trigger herd-wide fainting, requiring quick player intervention.
+- **Runaway Farm Equipment:** Random tractors or hay bales occasionally roll through, requiring rapid goat rerouting.
+
+---
+
+## Visuals and Tone
+- Bright, whimsical, cartoon aesthetics.
+- Comedic animations emphasizing goats’ fainting, panic, and confused recovery.
+- Humorous sound design with fainting bleats, goofy predator noises, and comedic item sound effects.
+
+---
+
+## Progression and Replayability
+
+- **Infinite Gameplay:** Game continues indefinitely; difficulty gradually escalates.
+- **Achievements:** Reward humorous titles for milestones ("Lord of the Faint," "Goat Whisperer," "Master of the Rooster").
+- **Leaderboards:** Compete globally or with friends based on survival duration, goat survival rates, or minimal fainting incidents.
+
+---
+
+## Recommended Tech Stack
+
+| Component             | Recommended Tools                  |
+|-----------------------|------------------------------------|
+| **Core Game Engine**  | Phaser.js (HTML5/JavaScript)       |
+| **Graphics/Art**      | SVG/PNG sprites, animations (Spine, Aseprite) |
+| **Audio**             | WebAudio API (via Phaser.js)       |
+| **Map/Level Design**  | Tiled Map Editor                   |
+| **Web Deployment**    | GitHub Pages / Netlify             |
+| **Mobile Deployment** | Cordova / Capacitor                |
+| **Backend (Optional)**| Firebase or Supabase               |
+
+---
+
+## Key Platform Advantages (Phaser.js)
+
+- Lightweight, performant HTML5 framework.
+- Browser-native, easy mobile porting.
+- Active community, extensive resources.
+- Simple integration and deployment.
+- Ideal for casual, endless, humorous gameplay loops.
+
+---
+
+This comprehensive concept for **"Flock Shock"** offers clear instructions, engaging mechanics, intuitive control schemes, and a technology stack perfectly suited for easy, scalable development.
