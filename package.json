@@ -1,0 +1,8 @@
+{
+  "name": "flockshock",
+  "version": "1.0.0",
+  "description": "simple Flock Shock prototype",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
